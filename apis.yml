@@ -1,8 +1,31 @@
 aid: encentive
 name: Encentive
-description: Encentive is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  encentive GmbH is a German industrial energy-technology company founded in 2020
+  and headquartered in Neumuenster. Its AI-driven smart energy management platform,
+  flexOn, automatically optimizes and controls electricity consumption for industrial
+  and commercial operations, orchestrating assets such as PV/solar systems, battery
+  storage, heat pumps, cooling and thermal storage, CHP, wind, and EV charging
+  infrastructure alongside existing energy management systems. flexOn combines plant
+  data, weather forecasts, and real-time market prices to shift loads to periods when
+  energy is cheapest and greenest, cutting energy costs by up to 20% and CO2 emissions
+  by up to 30%. It integrates with industrial assets over REST API, SFTP, OPC UA, and
+  Modbus TCP. encentive publishes no public developer API, portal, or specification;
+  integration is delivered as part of its managed platform, so this profile carries
+  identity and domain-security signals only.
 url: https://raw.githubusercontent.com/api-evangelist/encentive/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/encentive.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +34,36 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Energy Management
+- Industrial Energy
+- Artificial Intelligence
+- Demand Response
+- Energy Optimization
+- Sustainability
+- Flexibility
+- Germany
 apis: []
+common:
+- type: Website
+  url: https://www.encentive.de/en
+- type: Blog
+  url: https://www.encentive.de/en/resources/blog
+- type: Support
+  url: https://www.encentive.de/en/resources/faq
+- type: PrivacyPolicy
+  url: https://www.encentive.de/en/imprint
+- type: DomainSecurity
+  url: security/encentive-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
